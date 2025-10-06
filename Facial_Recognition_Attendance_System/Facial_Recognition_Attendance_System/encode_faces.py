@@ -22,8 +22,8 @@ def findEncodings(images):
     return encodeList
 
 encodeListKnown = findEncodings(images)
-print('✅ Encodings Completed!')
+print('Encodings Completed!')
 
 with open('EncodeFile.p', 'wb') as file:
     pickle.dump((encodeListKnown, classNames), file)
-print('✅ Encodings Saved!')
+print('Encodings Saved!')
