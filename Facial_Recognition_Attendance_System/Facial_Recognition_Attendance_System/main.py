@@ -7,7 +7,7 @@ from datetime import datetime
 print("⌛ Loading Encoded File...")
 with open('EncodeFile.p', 'rb') as file:
     encodeListKnown, classNames = pickle.load(file)
-print("✅ Encodings Loaded Successfully!")
+print("Encodings Loaded Successfully!")
 
 cap = cv2.VideoCapture(0)
 
